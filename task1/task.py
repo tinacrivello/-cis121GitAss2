@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Tina Crivello
+# date: July 20 2024
 # purpose: Sales call
 
 # This program contains errors
@@ -40,7 +40,7 @@ def should_call():
 
 
 def calculate_should_call(city, age):
-    return city == "portland" or "Hillsboro" and age > 21
+    return city == "portland" or city == "Hillsboro" and age >= 21
 
 if __name__ == "__main__":
     should_call()
